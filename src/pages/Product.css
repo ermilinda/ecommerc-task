@@ -1,0 +1,12 @@
+.container{
+    grid-template-columns: repeat(3,1fr);
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    place-self: center;
+}
+.containerMain{
+    display: flow-root;
+    padding: 20px;
+
+}
